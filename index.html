@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>Angular QuickStart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 1. Load libraries -->
+    <!-- Polyfill(s) for older browsers -->
+    <script src="dist/vendor/shim.min.js"></script>
+    <script src="dist/vendor/zone.js"></script>
+    <script src="dist/vendor/Reflect.js"></script>
+    <script src="dist/vendor/system.src.js"></script>
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function (err) {
+            console.error(err);
+        });
+    </script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="dist/index.css">
+
+</head>
+<!-- 3. Display the application -->
+<body>
+<my-app>Loading...</my-app>
+
+
+<section>
+    <parallax [headline]="tasd" [box]="bo"></parallax>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-9 col-sm-offset-3">
+                text here2
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section>
+
+
+    <div class="parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-9 col-sm-offset-3">
+                    <h2>Referenzen</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+                    <div class="box">
+                        Portfolio<br>anfordern
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-9 col-sm-offset-3">
+                <p>Du möchtest Referenzen sehen? Kein Problem! Hinterlasse einfach deine Mailadresse und wir schicken dir unser Portfolio umgehend zu. </p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Deine E-Mail Adresse">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="btn btn-primary">Portfolio anfordern</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-9 col-sm-offset-3">
+                    <h2>Über uns</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+                    <div class="box">
+                        Projektsetup<br>Philosophie
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-9 col-sm-offset-3">
+               text here
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>

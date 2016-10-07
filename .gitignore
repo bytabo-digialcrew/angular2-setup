@@ -1,0 +1,8 @@
+node_modules
+typings
+.DS_Store
+.idea
+.idea/workspace.xml
+.idea/jsLibraryMappings.xml
+dist
+npm-debug.log
